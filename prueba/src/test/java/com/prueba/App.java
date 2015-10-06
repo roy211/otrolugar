@@ -23,6 +23,8 @@ public class App {
 //hola
 
 
+
+
 	/*	Usuario a = new Usuario();
 		a.setId(10L);
 		a.setNombreCompleto("royner mejia");
@@ -30,7 +32,7 @@ public class App {
 		Correo b = new Correo();
 		b.setCliente(a);
 		b.setDireccion("roy@hotmail.com");
-		
+		holaaaaaaaaaaaaaaaaaaaaa!!
 		em.persist(b);
 		
 		Correo c = new Correo();
