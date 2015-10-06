@@ -14,10 +14,15 @@ public class App {
 		
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("testunit2");
 		EntityManager em = emf.createEntityManager();
-		EntityTransaction tx = em.getTransaction();
-		tx.begin();
 
-		// colocadlo desde otro repositorio
+		EntityTransaction txxee = em.getTransaction();
+		//
+		txxee.begin();
+
+//hola2
+//hola
+
+
 	/*	Usuario a = new Usuario();
 		a.setId(10L);
 		a.setNombreCompleto("royner mejia");
@@ -35,6 +40,7 @@ public class App {
 		em.persist(c);
 		tx.commit(); 
 		*/
+		//
 		Query query = em.createQuery("select c from Correo c where c.prove.empresa='gmail' ");
 		 List<Correo> resultList = query.getResultList();
 		 
