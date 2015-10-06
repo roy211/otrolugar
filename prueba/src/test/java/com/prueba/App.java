@@ -17,7 +17,10 @@ public class App {
 		EntityTransaction txxee = em.getTransaction();
 		//
 		txxee.begin();
+
 //hola2
+//hola
+
 		
 	/*	Usuario a = new Usuario();
 		a.setId(10L);
