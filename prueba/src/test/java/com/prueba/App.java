@@ -17,7 +17,7 @@ public class App {
 		EntityTransaction tx = em.getTransaction();
 		tx.begin();
 
-		
+		// colocadlo desde otro repositorio
 	/*	Usuario a = new Usuario();
 		a.setId(10L);
 		a.setNombreCompleto("royner mejia");
