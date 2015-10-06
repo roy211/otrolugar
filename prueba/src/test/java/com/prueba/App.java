@@ -14,8 +14,9 @@ public class App {
 		
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("testunit2");
 		EntityManager em = emf.createEntityManager();
-		EntityTransaction txx = em.getTransaction();
-		txx.begin();
+		EntityTransaction txxee = em.getTransaction();
+		//
+		txxee.begin();
 
 		
 	/*	Usuario a = new Usuario();
